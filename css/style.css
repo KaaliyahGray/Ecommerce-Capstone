@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul{
+    display: inline-block
+    list-style-type: none;
+}
+
+nav ul{
+display: inline-block
+margin-right: 20px;
+
+}
