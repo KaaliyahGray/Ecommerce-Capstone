@@ -17,7 +17,7 @@
 }
 .row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 {   --bs-gutter-y: 0;
     width: 100%;
-    padding-right: calc(var(--bs-gutter-x)* 4);
+    padding-right: calc(var(--bs-gutter-x)* 3);
     padding-left: calc(var(--bs-gutter-x)* 4);
     margin-right: auto;
     margin-top: 100px;
@@ -25,7 +25,7 @@
 }
 
 
-user agent stylesheet
+
 p {
     display: block;
     margin-block-start: 1em;

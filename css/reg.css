@@ -86,5 +86,13 @@
         background-repeat: no-repeat;
         -moz-background-size: cover;
       }
- 
+
+   .row-g-3{
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* );
+    padding-left: calc(var(--bs-gutter-x)* 4);
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+   }
 
