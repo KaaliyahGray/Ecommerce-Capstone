@@ -21,6 +21,7 @@
     padding-left: calc(var(--bs-gutter-x)* 4);
     margin-right: auto;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -43,3 +44,4 @@ p {
 .h1{
     text-align: justify;
 }
+
