@@ -1,11 +1,16 @@
-form {
-    display: -ms-flexbox;
-    padding-left: 400px;
+body {
+    background-image: url(/images/user\ copy.jpg);
+    background-position: center;
+    /*center the image*/
+    background-size: cover;
+    /*Fill Entire Viewport*/
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+  }
 
-    margin-top: 00px; 
-    unicode-bidi: isolate;
-    box-sizing: border-box;
-}
-.form-floating>.form-control, .form-floating>.form-control-plaintext {
-    padding: 1rem .75rem;
-}
+
+  .login {
+    padding-left: 40%;
+    margin-top: 900px; 
+  }
+  
