@@ -19,7 +19,7 @@ body {
   background-position: center;
   /*center the image*/
   background-size: cover;
-  padding-bottom: 400px;
+  padding-bottom: 100px;
   /*Fill Entire Viewport*/
   background-repeat: no-repeat;
   
@@ -36,8 +36,9 @@ article {
 }
 
 .container{
-  padding-left: 400px;
-  margin-top: 200px;}
+
+  margin-top: 300px;
+}
 
 
 
