@@ -1,3 +1,15 @@
+
+body {
+  background-image: url("/images/wall.jpeg");
+  background-position: center;
+  /*center the image*/
+  background-size: cover;
+  /*Fill Entire Viewport*/
+  background-repeat: no-repeat;
+  
+}
+
+
 .cont{
 
   --bs-gutter-x: 1.5rem;
