@@ -77,33 +77,49 @@
                 <p></p>
               <div class="d-flex justify-content-between align-items-center">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                  Add To Cart
-                </button>
-                
-                <!-- Modal -->
-                <div class="modal fade" id="pothos" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="pothos" aria-hidden="true">
-                  <div class="modal-dialog">
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="potho">Modal title</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">My Cart</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        ...
+                        period pathos a great option
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">add to my cart pls</button>
                       </div>
                     </div>
                   </div>
                 </div>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Go To Checkout</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        you sure youre done shopping bestie?
+                      </div>
+                      <div class="modal-footer"> 
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" href="checkout.html">Go To Checkout</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Add To Cart</button>
+                
+                
+                <!-- Modal -->
+                
                 <a class="link-offset-1" href="#">Plant Care Tips</a>       
-                   </div>
+                   
             </div>
           </div>
         </div>
+      </div>
         <div class="col">
           <div class="card shadow-sm">
             <img src="/images/monst.jpg" alt="monster">
