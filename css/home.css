@@ -29,7 +29,7 @@ body {
 article {
  
   border: 1px  #ddd; /* Adds a subtle border */
-  padding-left: 400px;
+  padding-left: 50px;
   margin-top: 200px; 
   
   /* Adds spacing below the article */
@@ -41,25 +41,19 @@ article {
 
 
 
-.img{
-  padding-inline-end: 12%;
-}
+
 .tb {
   background-color: transparent;
 }
 
-.row{
-  color: #fff;
-  margin-left: 6%;
-}
+
  
-.col-8{
-margin-left: 12%;
-}
+
 
 .card-text{
   color: #ffff;
   font-size: x-large;
+  text-align: i;
 }
 
 .card-title{
