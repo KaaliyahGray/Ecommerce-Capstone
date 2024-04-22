@@ -9,11 +9,10 @@ body {
   }
 
 
-  .contain {
-    padding-left: 10%;
+  .container {
+    padding-left: 0%;
     margin-top: 300px; 
   }
-  .container{
-    padding-left: 600px;
-  }
+
+
   

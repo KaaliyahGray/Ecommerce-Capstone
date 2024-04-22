@@ -27,23 +27,40 @@ body {
 
 
 article {
-  background-color: ; /* White background for articles */
+ 
   border: 1px  #ddd; /* Adds a subtle border */
-  padding-left: 40%;
+  padding-left: 400px;
   margin-top: 200px; 
-  ;
+  
   /* Adds spacing below the article */
 }
-.aside{
-  padding: 10px;
-  margin-top: 20px;
+
+.container{
+  padding-left: 350px;
+  margin-top: 200px;}
+
+
+
+.img{
+  padding-inline-end: 12%;
 }
-section{
-  margin-top: 300px; 
-  margin-left: 800px;
-  margin-top: 300px;
+.tb {
+  background-color: transparent;
 }
 
-.figure{
-  margin-top: 200px;
+.h1{
+  color: #fff;
+}
+
+.card-text{
+  color: #ffff;
+  font-size: x-large;
+}
+
+.card-title{
+  color: #ffff;
+  font-size: x-large;
+}
+li a{
+  color:#fff
 }
