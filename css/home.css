@@ -1,66 +1,100 @@
-.header{ 
-  text-align: center;
-  background-color: transparent;
-  
-}
-
-.nav{
-  background-color: transparent;
-}
-.nav ul li{
-  float: none;
-  text-align: center;
-}
-
-
-
+/* Global Styles */
 body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
   background-image: url("/images/darkpic.png");
-  background-position: center;
-  /*center the image*/
-  background-size: cover;
-  padding-bottom: 100px;
-  /*Fill Entire Viewport*/
-  background-repeat: no-repeat;
-  
 }
 
-
-article {
- 
-  border: 1px  #ddd; /* Adds a subtle border */
-  padding-left: 50px;
-  margin-top: 200px; 
-  
-  /* Adds spacing below the article */
+h1, h2 {
+  font-family: 'Georgia', serif;
 }
 
-.container{
-
-  margin-top: 300px;
+a {
+  text-decoration: none;
 }
 
-
-
-
-.tb {
-  background-color: transparent;
+.btn {
+  border-radius: 20px;
+  font-weight: bold;
 }
 
-
- 
-
-
-.card-text{
-  color: #ffff;
-  font-size: x-large;
-  text-align: i;
+.btn-light {
+  background-color: #ffffff;
+  color: #333;
 }
 
-.card-title{
-  color: #ffff;
-  font-size: x-large;
+.btn-primary {
+  background-color: #28a745;
+  color: #fff;
 }
-li a{
-  color:#fff
+
+.text-white {
+  color: #fff;
 }
+
+/* Header and Navbar Styles */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  padding: 8px 15px;
+  font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #495057;
+}
+
+/* Hero Section Styles */
+.hero {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+/* About Us Section */
+.about {
+  background-color: #ffffff;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* Master Class Section */
+.master-class {
+  background-color: #f8f9fa;
+}
+
+.master-class h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.master-class .btn {
+  margin: 5px;
+  font-size: 1rem;
+  padding: 12px 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color

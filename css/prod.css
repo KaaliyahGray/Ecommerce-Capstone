@@ -1,63 +1,144 @@
+/* Global Background Styles */
 body {
     background-image: url("/images/prods.jpeg");
-    background-position: center;
-    /*center the image*/
-    background-size: cover;
-    /*Fill Entire Viewport*/
-    background-repeat: no-repeat;
-    
-  }
+    background-position: center center; /* Ensure image is centered */
+    background-size: cover; /* Make sure the image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    color: #fff; /* Set text color to white for contrast */
+    font-family: 'Arial', sans-serif; /* Improved font family for readability */
+}
 
+/* Layout and Structure Enhancements */
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px; /* Added some spacing to top of container */
+}
 
-
-
+/* Row Spacing and Flexbox Adjustments */
 .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc(-1* var(--bs-gutter-y));
-    margin-right: calc(-.5* var(--bs-gutter-x));
-    margin-left: calc(-.5* var(--bs-gutter-x));
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    gap: 1.5rem; /* Add a gap between columns for better spacing */
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x)* .5);
-    padding-left: calc(var(--bs-gutter-x)* .6);
-    margin-right: auto;
-}
-.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 {   --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x)* 3);
-    padding-left: calc(var(--bs-gutter-x)* 4);
-    margin-right: auto;
+/* Grid Settings for Responsiveness */
+.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 {
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
-
-
+/* Text Styling for Readability */
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+    margin: 1em 0; /* Simplify margin */
+    font-size: 1rem; /* Ensures a consistent font size */
+    line-height: 1.6; /* Improve line spacing for readability */
+    text-align: justify; /* Justify paragraphs for a neat look */
 }
 
+/* Card Body Styles */
 .card-body {
     flex: 1 1 auto;
-    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-    color: var(--bs-card-color);
+    padding: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.6); /* Darken the card body background */
+    color: #fff; /* Set text color to white for readability */
+    border-radius: 8px; /* Round the edges of the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow effect for cards */
 }
 
-.h1{
-    text-align: justify;
+/* Headings Styling */
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center; /* Center align headings for a more professional look */
+    margin-bottom: 1rem; /* Add space below headings */
 }
 
-.icon-link{
-    color: black;
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Icon Link Styling */
+.icon-link {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem; /* Add space between text and icon */
+}
+
+.icon-link:hover {
+    color: #28a745; /* Change color on hover */
+}
+
+/* Button and Modal Styling */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-close {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.modal-content {
+    background-color: #333; /* Darken modal background */
+    color: #fff; /* White text for modal */
+    border-radius: 10px; /* Rounded corners for modal */
+}
+
+/* Custom Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add rounded corners to images */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #28a745; /* Hover effect on footer links */
 }
